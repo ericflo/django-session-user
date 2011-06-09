@@ -16,7 +16,7 @@ AuthenticationMiddleware:
     MIDDLEWARE_CLASSES = (
         # ...
         'django.contrib.auth.middleware.AuthenticationMiddleware',
-        'sessionuser.middleware.UserSessionMiddleware',
+        'sessionuser.middleware.SessionUserMiddleware',
         # ...
     )
 

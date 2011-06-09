@@ -79,7 +79,7 @@ def cookie_get_user(request):
     return user
 
 
-class UserSessionMiddleware(object):
+class SessionUserMiddleware(object):
 
     def __init__(self):
         """
